@@ -1,0 +1,6 @@
+POST http://localhost:3000/bfhl
+Content-Type: application/json
+
+{
+  "data": ["a","1","334","4","R","$"]
+}

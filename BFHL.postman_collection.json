@@ -1,0 +1,93 @@
+{
+  "info": {
+    "name": "BFHL API",
+    "_postman_id": "bfhl-api-collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "POST /bfhl (Example A)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "https://YOUR-RENDER-URL.onrender.com/bfhl",
+          "protocol": "https",
+          "host": [
+            "YOUR-RENDER-URL",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "bfhl"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"data\": [\"a\", \"1\", \"334\", \"4\", \"R\", \"$\"]}"
+        }
+      }
+    },
+    {
+      "name": "POST /bfhl (Example B)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "https://YOUR-RENDER-URL.onrender.com/bfhl",
+          "protocol": "https",
+          "host": [
+            "YOUR-RENDER-URL",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "bfhl"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"data\": [\"2\", \"a\", \"y\", \"4\", \"&\", \"-\", \"*\", \"5\", \"92\", \"b\"]}"
+        }
+      }
+    },
+    {
+      "name": "POST /bfhl (Example C)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "https://YOUR-RENDER-URL.onrender.com/bfhl",
+          "protocol": "https",
+          "host": [
+            "YOUR-RENDER-URL",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "bfhl"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"data\": [\"A\", \"ABcD\", \"DOE\"]}"
+        }
+      }
+    }
+  ]
+}
