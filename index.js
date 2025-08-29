@@ -17,7 +17,7 @@ const buildConcatString = (data) => {
   }
   letters.reverse();
   return letters
-    .map((ch, i) => (i % 2 === 0 ? ch.toLowerCase() : ch.toUpperCase()))
+    .map((ch, i) => (i % 2 === 0 ? ch.toUpperCase() : ch.toLowerCase()))
     .join("");
 };
 
